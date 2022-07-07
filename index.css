@@ -28,37 +28,73 @@ header {
 }
 section{
     margin:30px;
-    padding:200px;
+    padding:100px;
     text-align: center;
 }
 .taka-select{
     display:flex;
     flex-direction: row;
-    margin:20px auto;
+    margin:auto;
+    padding:10px 400px;
     
+}
+.amout-section{
+    background-color: burlywood;
 }
 .taka{
     background: rgb(243, 231, 231);
-    margin:10px auto;
-    padding:20px 10px;
+    margin:5px;
+    padding:20px 20px;
     font-weight: 600;
     height: 50px;
-    width:75px
+    width:100px;
 }
 .tkslc{
     background-color: rgb(237, 178, 102);
     border:2px solid red;
 }
+
 input{border:none;
 padding: 10px;}
 hr{
     width:50%;
     margin:10px auto;
 }
+.card-part{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+}
+.card{
+    width:200px;
+    margin:20px;
+    padding: 10px;
+}
+.card1{
+    background-color: burlywood;
+    box-shadow: 2px 3px 4px rgb(0,0,0,0.5);
+}
+.card2{
+    background-color: rgb(178, 159, 134);
+    box-shadow: 2px 3px 4px rgb(0,0,0,0.5);
+}
+.card3{
+    background-color: rgb(75, 203, 223);
+    box-shadow: 2px 3px 4px rgb(0,0,0,0.5);
+}
+.card-part img{
+    width:30px;
+    height: 50px;
+}
+
+.update-section{
+    background-color: burlywood;
+}
 .update{
     width:700px;
     height: 100px;
-    background-color: yellow;
+    background-color: rgb(250, 250, 179);
     margin: 100px auto;
 }
 .update input{
@@ -70,7 +106,6 @@ footer{
     margin:0 auto;
     background-color: black;
     color:whitesmoke;
-    align-items: center;
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
