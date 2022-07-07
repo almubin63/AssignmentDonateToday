@@ -11,10 +11,45 @@ header {
 }
 .header-content{
     position:absolute;
+    padding: 20px;
     text-align: center;
     top:50%;
     left:40%;
     color:white;
     font-weight: 700;
     
+}
+ button{
+    background-color: rgb(237, 103, 103);
+    padding:10px 20px;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+section{
+    margin:30px;
+    padding:20px;
+    text-align: center;
+}
+.taka-select{
+    display:flex;
+    flex-direction: row;
+
+    
+}
+.taka{
+    background: rgb(243, 231, 231);
+    margin:10px auto;
+    padding:20px 10px;
+    font-weight: 600;
+
+}
+.tkslc{
+    background-color: rgb(237, 178, 102);
+    border:2px solid red;
+}
+input{border:none}
+hr{
+    width:50%;
+    margin:10px auto;
 }
