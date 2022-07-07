@@ -28,13 +28,13 @@ header {
 }
 section{
     margin:30px;
-    padding:20px;
+    padding:200px;
     text-align: center;
 }
 .taka-select{
     display:flex;
     flex-direction: row;
-
+    margin:20px auto;
     
 }
 .taka{
@@ -42,14 +42,35 @@ section{
     margin:10px auto;
     padding:20px 10px;
     font-weight: 600;
-
+    height: 50px;
+    width:75px
 }
 .tkslc{
     background-color: rgb(237, 178, 102);
     border:2px solid red;
 }
-input{border:none}
+input{border:none;
+padding: 10px;}
 hr{
     width:50%;
     margin:10px auto;
+}
+.update{
+    width:700px;
+    height: 100px;
+    background-color: yellow;
+    margin: 100px auto;
+}
+.update input{
+    margin:40px;
+}
+footer{
+    height:100px;
+    width:95%;
+    margin:0 auto;
+    background-color: black;
+    color:whitesmoke;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
